@@ -1,0 +1,16 @@
+# Core dependencies for h1-stand-rl
+#
+# torch: CPU-only build is listed here for reproducibility.
+# If you have a CUDA GPU, replace with the appropriate wheel:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+torch==2.10.0+cpu
+
+mujoco==3.8.1
+gymnasium==1.2.3
+stable-baselines3==2.8.0
+
+# imageio with ffmpeg support for video recording
+imageio[ffmpeg]==2.37.3
+
+numpy==2.4.6
+tensorboard==2.20.0
