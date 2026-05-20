@@ -138,20 +138,20 @@ def main():
     pass_height = mean_tail_height > STAND_HEIGHT
     print("\n=== Verdict ===")
     if pass_rate and pass_height:
-        print("STEHT")
+        print("STANDS")
     else:
         reasons = []
         if not pass_rate:
             reasons.append(
-                f"nur {success_rate * 100:.1f}% volle Episoden "
-                f"(>= {STAND_SUCCESS_RATE * 100:.0f}% noetig)"
+                f"only {success_rate * 100:.1f}% full episodes "
+                f"(>= {STAND_SUCCESS_RATE * 100:.0f}% required)"
             )
         if not pass_height:
             reasons.append(
-                f"Tail-Hoehe {mean_tail_height:.3f} m "
-                f"(> {STAND_HEIGHT} m noetig)"
+                f"tail height {mean_tail_height:.3f} m "
+                f"(> {STAND_HEIGHT} m required)"
             )
-        print("STEHT NOCH NICHT -- " + "; ".join(reasons))
+        print("NOT STANDING YET -- " + "; ".join(reasons))
 
 
 if __name__ == "__main__":
