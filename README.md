@@ -182,5 +182,5 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 ## Author
 
-**Olaf Stolle** — [Ai-Crafters](https://ai-crafters.io)
+**Ai-Crafters** ([ai-crafters.io](https://ai-crafters.io))
 📧 info@ai-crafters.io

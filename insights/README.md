@@ -1,4 +1,4 @@
-# Domain-Insight-Agent — Wiederverwendbare Komponente in Olafs RL-Workflow
+# Domain-Insight-Agent — Wiederverwendbare Komponente im RL-Workflow
 
 ## Was ist das
 

@@ -1,6 +1,6 @@
 # Lern-Curriculum nach menschlichem Vorbild — H1 RL
 
-**Bericht 4 der Domain-Insight-Reihe** | Quelle: Olafs Insight (2026-05-20)
+**Bericht 4 der Domain-Insight-Reihe** | Quelle: der Insight (2026-05-20)
 
 ---
 
@@ -136,7 +136,7 @@ python train.py --resume iter6_checkpoint --balance-assist 0.3 --total-steps 10_
 ---
 
 **Karpathy-Sanity:**
-- Trace ✅ — jede Phase direkt auf Olafs Insight-Wortlaut rückführbar
+- Trace ✅ — jede Phase direkt auf der Insight-Wortlaut rückführbar
 - Senior-Check ✅ — Phase 5 als Flag ist 30 Zeilen, nicht 300
 - Knöchel-82%-Bezug ✅ in Sektion 3 + 6 quantifiziert
 - Alle 6 Phasen in Tabelle ✅

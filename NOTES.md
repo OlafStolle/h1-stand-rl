@@ -400,7 +400,7 @@ Faktor 40× zwischen Gruppen. Damit ist Bein-Zappeln teuer, Arm-Schwung billig.
 
 **2. Foot-Position-Lock + Foot-Air-Penalty**
 
-Pelvis-xy ist die falsche Messgröße. Olafs Heuristik meint die **Füße** —
+Pelvis-xy ist die falsche Messgröße. Anwender-Heuristik meint die **Füße** —
 der Kontaktpunkt zur Welt. Reset speichert
 `self._foot_xy_init[i]` für `i ∈ {left, right}` (jeweiliger
 Body-`xpos[:2]` nach Noise-Anwendung). Pro Step:

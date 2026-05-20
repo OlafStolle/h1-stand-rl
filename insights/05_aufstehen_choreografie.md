@@ -1,10 +1,10 @@
 # Aufsteh-Choreografie: Rückenlage → Stand (H1 Sub-Goal-Plan)
 
-**Bericht 5 der Domain-Insight-Reihe** | Quelle: Olafs Biomechanik-Beschreibung (2026-05-20)
+**Bericht 5 der Domain-Insight-Reihe** | Quelle: die Biomechanik-Beschreibung (2026-05-20)
 
 ---
 
-## 1. Olafs Choreografie — wörtlich
+## 1. die Choreografie — wörtlich
 
 > *"Wenn ich am Rücken liege: Beine anwinkeln, Ellbogen auf Boden abstützen, nach vorne beugen, Arme nach hinten abstützen, durch Anziehen der Beine Oberkörper in Hocke bringen, mit Armen abstützen, nach vorne gebeugt langsames Aufstehen."*
 
@@ -182,7 +182,7 @@ class ChoreographyCurriculum:
 **→ Option B (Sub-Envs) mit Phase 2–3 als Pilot.**
 
 **Begründung:**
-1. Olafs Curriculum-Insight (Bericht 04) zeigt, dass sequenzielle Phasen effizienter sind als "alles auf einmal". Option B realisiert das systematisch.
+1. der Curriculum-Insight (Bericht 04) zeigt, dass sequenzielle Phasen effizienter sind als "alles auf einmal". Option B realisiert das systematisch.
 2. Phase 5 (Bericht 04) = Balance-Hilfe. Diese Choreografie deckt Phase 2–3 Aufstehen (Krabbeln → Hocke). Kombiniert bauen sie das volle Curriculum.
 3. Reset-Poses sind für Stufen 1–3 trivial (ältere Frames aus Rückenlage-Trajectories), ab Phase 4 aufwendiger (Sit-up-Pose manuell konstruieren).
 
@@ -220,7 +220,7 @@ Diese Vorarbeit macht Phase 4–8 später einfacher, weil die Robustik für Cont
 ---
 
 **Karpathy-Sanity:**
-- Trace ✅ — 8 Stufen direkt rückführbar zu Olafs Zitat
+- Trace ✅ — 8 Stufen direkt rückführbar zu des Anwenders Zitat
 - Senior-Check ✅ — Option B ist 500 Zeilen, nicht 2000; Option A ist 100 Zeilen
 - Quantitativ ✅ — qpos-Werte geschätzt, als solche gekennzeichnet
 - Nächste Schritte ✅ — 4 konkrete Optionen, nicht "versuch Phase 2"

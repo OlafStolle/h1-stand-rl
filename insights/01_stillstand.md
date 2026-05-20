@@ -32,7 +32,7 @@ Die menschliche Balance arbeitet in einer klaren Reihenfolge:
 
 **Regel:** Korrektur startet IMMER beim Fuß. Wenn ein Roboter zappelt, bevor der Fuß sich bewegt hat, hat er die Sensorik-Hierarchie umgedreht.
 
-## 3. Olafs Heuristik konkret — „unten fest, oben balance"
+## 3. Anwender-Heuristik konkret — „unten fest, oben balance"
 
 Übersetzt in zwei Gelenk-Gruppen:
 
@@ -103,7 +103,7 @@ upper_vel_cost = UPPER_JOINT_VEL_WEIGHT * np.sum(joint_qvel[UPPER_JOINT_IDX]**2)
 
 Klare Trennung: Bein-Zappeln teuer, Arm-Schwung billig.
 
-### Foot-Position-Lock-Term (NEU — der Kern von Olafs Heuristik)
+### Foot-Position-Lock-Term (NEU — der Kern von Anwender-Heuristik)
 
 Speichere im `reset()` die Reset-xy-Position beider Füße. Bestrafe Abweichung:
 
@@ -203,4 +203,4 @@ lower_vel_w = 0.005 + (0.020 - 0.005) * progress  # startet wie Iter 5
 
 ---
 
-**Karpathy-Sanity:** Trace-Regel ✅ — jeder neue Term lässt sich direkt auf Olafs Heuristik („unten fest, oben balance") oder eine konkrete Beobachtung im Frame-Streifen zurückführen. Senior-Check ✅ — kein neuer Mechanismus den ein PPO-erfahrener Engineer nicht sofort umsetzt. Trennung in 2 Gruppen + Foot-Lock sind die zwei chirurgischen Eingriffe, nicht 7.
+**Karpathy-Sanity:** Trace-Regel ✅ — jeder neue Term lässt sich direkt auf Anwender-Heuristik („unten fest, oben balance") oder eine konkrete Beobachtung im Frame-Streifen zurückführen. Senior-Check ✅ — kein neuer Mechanismus den ein PPO-erfahrener Engineer nicht sofort umsetzt. Trennung in 2 Gruppen + Foot-Lock sind die zwei chirurgischen Eingriffe, nicht 7.

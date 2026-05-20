@@ -20,7 +20,7 @@
 4. **Schwerpunkt nach vorn über Füße verlagern** — Hände lösen
 5. **Aufrichten** — Knie strecken, Hüfte strecken, Torso senkrecht
 
-## 2. Olafs Heuristik übertragen — „wo gehören die Gliedmaßen hin"
+## 2. Anwender-Heuristik übertragen — „wo gehören die Gliedmaßen hin"
 
 | Phase | Funktion der Beine | Funktion der Arme |
 |-------|---------------------|---------------------|

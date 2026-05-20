@@ -32,3 +32,5 @@ mujoco_menagerie/
 
 # macOS
 .DS_Store
+.gstack/
+MUJOCO_LOG.TXT
